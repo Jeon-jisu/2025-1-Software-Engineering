@@ -1,0 +1,9 @@
+[Jeon-jisu] Tue May 20 13:46:09 2025 +0900 docs: `class_diagram` 작성 6abea1e
+[Jeon-jisu] Tue May 20 13:45:55 2025 +0900 docs: `communication_diagram` 작성 e2130ab
+[Jeon-jisu] Tue May 20 13:45:21 2025 +0900 docs: 기존 `use case diagram` 삭제 56309db
+[Jeon-jisu] Tue May 20 13:44:59 2025 +0900 docs: `use case diagram` 최종본 6c04101
+[Jeon-jisu] Tue May 20 09:45:58 2025 +0900 docs: `시스템 종료 기능` 삭제 7546227
+[Jeon-jisu] Mon May 19 15:31:37 2025 +0900 docs: `Use-case description` 작성 c0cf41b
+[Jeon-jisu] Mon May 19 14:22:53 2025 +0900 docs: `Use-case Diagram` 작성 94c7830
+[Jeon-jisu] Mon May 19 14:16:59 2025 +0900 docs: `Requirement list` 작성 ebf5817
+[Jeon-jisu] Mon May 19 14:11:37 2025 +0900 reinit after corruption c732b81
