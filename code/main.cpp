@@ -1,34 +1,34 @@
-// main.cpp
+﻿// main.cpp
 #include <iostream>
 #include <fstream>
 #include <string>
 
-#include "include/entities/Account.h"
-#include "include/entities/Bike.h"
-#include "include/entities/Rental.h"
-#include "include/entities/CurrentAccount.h"
-#include "include/collections/AccountCollection.h"
-#include "include/collections/BikeCollection.h"
-#include "include/collections/RentalCollection.h"
-#include "include/controllers/SignUpController.h"
-#include "include/controllers/LoginController.h"
-#include "include/controllers/LogoutController.h"
-#include "include/controllers/RegisterBikeController.h"
-#include "include/controllers/RentBikeController.h"
-#include "include/controllers/ViewRentalController.h"
-#include "include/controllers/ExitController.h"
-#include "include/ui/ExitUI.h"
-#include "include/ui/LoginUI.h"
-#include "include/ui/LogoutUI.h"
-#include "include/ui/SignUpUI.h"
-#include "include/ui/RegisterBikeUI.h"
-#include "include/ui/RentBikeUI.h"
-#include "include/ui/ViewRentalUI.h"
+#include "Account.h"
+#include "Bike.h"
+#include "Rental.h"
+#include "CurrentAccount.h"
+#include "AccountCollection.h"
+#include "BikeCollection.h"
+#include "RentalCollection.h"
+#include "SignUpController.h"
+#include "LoginController.h"
+#include "LogoutController.h"
+#include "RegisterBikeController.h"
+#include "RentBikeController.h"
+#include "ViewRentalController.h"
+#include "ExitController.h"
+#include "ExitUI.h"
+#include "LoginUI.h"
+#include "LogoutUI.h"
+#include "SignUpUI.h"
+#include "RegisterBikeUI.h"
+#include "RentBikeUI.h"
+#include "ViewRentalUI.h"
 
 using namespace std;
 
-#define INPUT_FILE_NAME "../data/input.txt"
-#define OUTPUT_FILE_NAME "../data/output.txt"
+#define INPUT_FILE_NAME "../input.txt"
+#define OUTPUT_FILE_NAME "../output.txt"
 
 /*
 메인 함수 선언부
@@ -56,10 +56,12 @@ int main() {
 
     // 파일 열기 성공 여부 확인
     if (!inputFile.is_open()) {
+        cout << "Error opening file " << INPUT_FILE_NAME << endl;
         return -1;
     }
 
     if (!outputFile.is_open()) {
+        cout << "Error opening file " << OUTPUT_FILE_NAME << endl;
         return -1;
     }
 
