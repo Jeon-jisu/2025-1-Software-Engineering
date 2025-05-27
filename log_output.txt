@@ -1,3 +1,5 @@
+[Jeon-jisu] Tue May 20 13:49:35 2025 +0900 docs: `use-case-description`파일 수정 25b3326
+[Jeon-jisu] Tue May 20 13:48:19 2025 +0900 docs: `log_output.txt` 추가 afda60c
 [Jeon-jisu] Tue May 20 13:46:09 2025 +0900 docs: `class_diagram` 작성 6abea1e
 [Jeon-jisu] Tue May 20 13:45:55 2025 +0900 docs: `communication_diagram` 작성 e2130ab
 [Jeon-jisu] Tue May 20 13:45:21 2025 +0900 docs: 기존 `use case diagram` 삭제 56309db

@@ -1,3 +1,6 @@
+개인코드 : 93535
+GitHub 주소: https://github.com/Jeon-jisu/2025-1-Software-Engineering
+
 ## (1) Requirement list
 
 | No. | Requirement | Use Case |
